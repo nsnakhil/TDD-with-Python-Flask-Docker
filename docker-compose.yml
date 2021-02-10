@@ -5,7 +5,7 @@ services:
   api:
     build: 
       context: .
-      dockerfile: Dockerfile
+      dockerfile: flask-tdd-docker/Dockerfile
     volumes:
       - .:/usr/src/app
     ports:
