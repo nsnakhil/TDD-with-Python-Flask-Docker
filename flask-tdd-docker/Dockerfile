@@ -14,7 +14,7 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 # add and install requirements
-COPY ./requirements.txt .
+COPY flask-tdd-docker/requirements.txt requirements.txt 
 RUN pip install -r requirements.txt
 
 # add app
